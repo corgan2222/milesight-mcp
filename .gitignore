@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Env / secrets
+.env
+
+# Local gateway list (may contain real IPs / credentials)
+gateways.txt
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+.local
+.vscode
+docs/
+
+# Windows internet shortcuts (can leak local paths / signed URLs)
+*.url
+
+.code-review-graph/
+.claude/

@@ -27,6 +27,11 @@ dependencies = [
     "python-dotenv>=1.0",
 ]
 
+[project.urls]
+Homepage = "https://github.com/corgan2222/milesight-mcp"
+Repository = "https://github.com/corgan2222/milesight-mcp"
+Issues = "https://github.com/corgan2222/milesight-mcp/issues"
+
 [project.scripts]
 milesight-mcp = "milesight_mcp.server:main"
 
